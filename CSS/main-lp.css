@@ -1,0 +1,82 @@
+/* General  */
+* {
+   margin: 0%;
+   padding: 0%;
+    /* background-color: aquamarine; */
+}
+
+body {
+    margin: 0%;
+    font-family: 'Muli', sans-serif;
+    font-size: 17px;
+    line-height: 1.9;
+}
+
+
+
+ /* Hero-Section */
+#showcase {
+    background-image: url(../images/Webp.net-resizeimage\ \(2\).jpg);
+    background-size: cover;
+    background-position: top;
+    text-align: center;
+    height: 100vh;
+   
+}
+
+
+
+/* Stylish */
+#showcase h1 {
+    font-size: 50px;
+    color: azure;
+    line-height: 1.2;
+}
+
+#showcase p {
+    text-align: center;
+    font-size: 20px;
+    color: azure;
+}
+
+#showcase .button {
+    font-size: 18px;
+    text-decoration: none;
+    color: azure;
+    border: azure 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+#showcase .button:hover {
+    background: rgba(240, 255, 255, 0.76);
+    color: black;
+}
+
+
+
+/* Main-content */
+#section-a{
+    padding: 30px;
+    text-align: center;
+}
+
+#section-b{
+    padding: 30px;
+    background: beige;
+    text-align: center;
+}
+
+#section-c {
+    text-align: center;
+    display: flex;
+    /* flex-direction: column; */
+}
+#section-c div {
+    padding: 20px;
+}
+
+#section-c .box-1, #section-c .box-3 {
+    background-color: rgb(198, 255, 247);
+}
