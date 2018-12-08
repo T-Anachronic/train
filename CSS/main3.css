@@ -1,0 +1,12 @@
+* {
+    background-color: blueviolet;
+}
+
+.wrapper > div {
+    background-color: aqua;
+    padding: 2em;
+}
+
+.wrapper > div:nth-child(odd) {
+    background-color: beige;
+} 
