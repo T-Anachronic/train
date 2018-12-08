@@ -2,6 +2,10 @@
     background-color: blueviolet;
 }
 
+/* body {
+    margin: 0; Margin: 0; = No space around our entire Body
+} */
+
 .wrapper > div {
     background-color: aqua;
     padding: 2em;
