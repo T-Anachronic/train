@@ -1,4 +1,6 @@
-
+* {
+    background-color: blueviolet;
+}
 
 .wrapper > div {
     background-color: aqua;
@@ -9,3 +11,8 @@
     background-color: beige;
 } 
 
+.nested > div{
+    border: rgb(61, 41, 11) 2px solid;
+    padding: 1em;
+
+}
