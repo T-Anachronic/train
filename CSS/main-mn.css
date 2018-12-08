@@ -14,8 +14,6 @@ body {
     overflow: hidden;
     height: 63px;
 }
-
-
 .navbar a {
     float: right;
     display: block;
@@ -25,7 +23,6 @@ body {
     text-decoration: none;
     font-size: 17px;
 }
-
 .navbar ul {
     margin: 8px 15px 0 8px;
 }
@@ -47,7 +44,6 @@ body {
     padding-top: 60px;
     transition: 0.5s;
 }
-
 .side-nav a {
     padding: 30px 10px 10px 10px;
     text-decoration: none;
@@ -62,7 +58,7 @@ body {
 .side-nav .btn-close {
     position: absolute;
     top: 0;
-    left: ;: 22px;
+    left: 22px;
     font-size: 36px;
     margin-right: 50px;
 }
@@ -75,9 +71,6 @@ body {
     overflow: hidden;
     /* width: 100%; */
 }
-
-
-
 
 @media (max-width: 568px) {
     .navbar-nav { display: none;}
